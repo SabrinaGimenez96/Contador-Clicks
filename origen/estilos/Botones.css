@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-click,
+.boton-reiniciar {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    border-width: 2px;
+    border: 1px solid #BC6FF1;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.boton-click:active {
+    transition: 0.2s;
+    transform: translate(0px, -7px);
+    color: #BC6FF1;
+    border-color: transparent;
+    background-color: transparent;    
+}
+
+.boton-reiniciar:active {
+    transition: 0.2s;
+    transform: translate(0px, 7px);
+    color: #BC6FF1;
+    border-color: transparent;
+    background-color: transparent;    
+}
+

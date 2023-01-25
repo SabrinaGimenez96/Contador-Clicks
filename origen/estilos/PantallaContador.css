@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+.contador {
+    font-family: 'Allerta Stencil', sans-serif;
+    border: 1px solid #b957fa;
+    min-width: 100px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 450%;
+    text-align: center;
+    cursor: pointer;
+    /*-webkit-text-stroke: 2px #f55; trazo de la letra*/
+}
+
+.contador:hover {
+    border-color: transparent;
+    box-shadow: 0 0 5px #52057B,
+                0 0 20px #52057B,
+                0 0 60px #52057B,
+                0 0 120px #52057B;
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    color: #BC6FF1;
+    position: relative;
+    top: -10px;
+    
+}
